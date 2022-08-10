@@ -49,7 +49,7 @@ const moment = require('moment');
 client.commands = new Collection();
 
 const rest = new REST({ version: '10' }).setToken(
-  'Nzk4NTkzOTQ1MTU5ODYwMjU0.G7FSrs.NDkirQaiC8fycByN1kbPqTkL_9pg1LYVhxMlk4',
+  'TOKEN',
 );
 
 const log = (l) => {
@@ -90,7 +90,7 @@ for (const file of eventFiles) {
 
 client.discordTogether = new DiscordTogether(client);
 
-client.login('Nzk4NTkzOTQ1MTU5ODYwMjU0.G7FSrs.NDkirQaiC8fycByN1kbPqTkL_9pg1LYVhxMlk4');
+client.login('TOKEN');
 
 client.on('guildCreate', async (guild) => {
   const embed = new EmbedBuilder()
