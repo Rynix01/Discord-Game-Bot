@@ -1,0 +1,47 @@
+{
+  "name": "discord-together",
+  "version": "1.3.3",
+  "description": "Play games or watch YouTube videos together on Discord! More than 18 games available!",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "start": "nodemon ./models/model.js",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rynix01/Discord-Game-Bot.git"
+  },
+  "keywords": [
+    "discord activities",
+    "discordjs activities",
+    "discord activity",
+    "discord together",
+    "discord 2gether",
+    "watch2gether",
+    "youtube",
+    "discord.js",
+    "together",
+    "discord",
+    "youtube",
+    "videos",
+    "poker"
+  ],
+  "author": "Rynix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rynix01/Discord-Game-Bot/issues"
+  },
+  "homepage": "https://github.com/Rynix01/Discord-Game-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "check-dts": "^0.5.2",
+    "prettier": "^2.3.2"
+  }
+}
